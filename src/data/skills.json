@@ -1,0 +1,26 @@
+[
+  {
+    "name": "JavaScript",
+    "level": "Confirmé"
+  },
+  {
+    "name": "React.js",
+    "level": "Confirmé"
+  },
+  {
+    "name": "Next.js",
+    "level": "Novice"
+  },
+  {
+    "name": "CSS",
+    "level": "Confirmé"
+  },
+  {
+    "name": "TypeScript",
+    "level": "Intermédiaire"
+  },
+  {
+    "name": "TypeScript",
+    "level": "Intermédiaire"
+  }
+]

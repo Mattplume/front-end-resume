@@ -1,13 +1,9 @@
-// pages/index.tsx
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Home: React.FC = () => {
 	return (
-		<div>
-			<Header />
-			<h1>Bienvenue sur mon CV</h1>
-			<Footer />
+		<div className="min-h-screen flex flex-col">
+			<main className="flex-grow flex items-center justify-center">
+				<h1 className="text-3xl font-bold">Bienvenue sur mon CV</h1>
+			</main>
 		</div>
 	);
 };

@@ -1,9 +1,16 @@
-// pages/_app.tsx
-import "../styles/globals.css"; // Importation des styles globaux
-import type { AppProps } from "next/app";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
-	return <Component {...pageProps} />;
+const MyApp = ({ Component }) => {
+	return (
+		<div>
+			<Header />
+			<main className="pt-12">
+				<Component />
+			</main>
+			<Footer />
+		</div>
+	);
 };
 
 export default MyApp;
