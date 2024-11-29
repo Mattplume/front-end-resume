@@ -1,15 +1,15 @@
+import "../styles/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { AppProps } from "next/app";
 
-const MyApp = ({ Component }) => {
+const MyApp = ({ Component }: AppProps) => {
 	return (
-		<div>
+		<main className="main-container flex-col justify-center align-middle w-full">
 			<Header />
-			<main className="pt-12">
-				<Component />
-			</main>
+			<Component />
 			<Footer />
-		</div>
+		</main>
 	);
 };
 
