@@ -7,7 +7,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				primaryFont: ["Space Grotesk", "serif"],
+				"space-grotesk": ["Space Grotesk", "serif"],
 			},
 			colors: {
 				darkPrimary: "#323330",
@@ -17,7 +17,7 @@ module.exports = {
 				paddingTopXL: "160px",
 			},
 			fontSize: {
-				h1: "60px",
+				h1: "50px",
 			},
 		},
 	},

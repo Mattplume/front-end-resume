@@ -5,9 +5,9 @@ import { AppProps } from "next/app";
 
 const MyApp = ({ Component }: AppProps) => {
 	return (
-		<main className="main-container flex-col justify-center align-middle w-full">
+		<main className="main-container flex-col justify-center align-middle w-100">
 			<Header />
-			<Component />
+			<Component className="w-full" />
 			<Footer />
 		</main>
 	);

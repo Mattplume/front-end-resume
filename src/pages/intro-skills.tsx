@@ -7,9 +7,8 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 		<PageContainer backgroundColor="#1E1E1E" className="page-container">
 			<div className="component-container flex justify-between">
 				<div className="intro infos-block text-white w-full w-max-[700]">
-					<h1 className="text-h1 font-primaryFont">
-						Développeur front-end & interfaceur
-					</h1>
+					<h1 className="text-h1 font-medium">Développeur front-end</h1>
+					<h1 className="text-h1 font-medium">& interfaceur</h1>
 					<p>
 						Depuis 2018, je participe à la conception, au développement et au
 						pilotage des projets web pour déployer des applications digitales.
@@ -19,7 +18,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 						pilotage des projets web pour déployer des applications digitales.
 					</p>
 				</div>
-				<div className="h-[600] w-full w-max-[550]">
+				<div className="h-[600] w-full w-max-[550] flex justify-end">
 					<Image
 						src={imageSrc}
 						alt={altText}
