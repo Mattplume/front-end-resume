@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { IntroSkillsProps } from "@/types";
 import PageContainer from "@/components/PageContainer";
 
@@ -7,24 +8,34 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 		<PageContainer backgroundColor="#1E1E1E" className="page-container">
 			<div className="component-container flex justify-between">
 				<div className="intro infos-block text-white w-full w-max-[700]">
-					<h1 className="text-h1 font-medium">Développeur front-end</h1>
-					<h1 className="text-h1 font-medium">& interfaceur</h1>
-					<p>
+					<h1 className="text-h1 font-medium mb-[6] leading-tight">
+						Développeur front-end
+					</h1>
+					<h1 className="text-h1 font-medium leading-tight mb-[20]">
+						& interfaceur
+					</h1>
+					<p className="text-h4 mb-[10] leading-relaxed max-w-[90%]">
 						Depuis 2018, je participe à la conception, au développement et au
 						pilotage des projets web pour déployer des applications digitales.
 					</p>
-					<p>
-						Depuis 2018, je participe à la conception, au développement et au
-						pilotage des projets web pour déployer des applications digitales.
+					<p className="text-h4 leading-relaxed max-w-[90%] mb-[40]">
+						Depuis plus de 12 ans, j’exerce dans la relation client et le suivi
+						des projets auprès des entreprises du numérique.
 					</p>
+					<Link
+						href="/contact"
+						className="text-h4 bg-darkPrimary border border-darkerPrimary border-0.5 hover:border-opacity-[0.25] rounded-[16] px-4 py-2 hover:border-yellow transition duration-300 ease-out"
+					>
+						<span>Me contacter</span>
+					</Link>
 				</div>
 				<div className="h-[600] w-full w-max-[550] flex justify-end">
 					<Image
 						src={imageSrc}
 						alt={altText}
 						width={0}
-						height={600}
-						className="w-full max-w-[550] h-full max-h-[600] object-cover rounded-[30]"
+						height={550}
+						className="w-full max-w-[550] h-full max-h-[550] object-cover rounded-[30]"
 					/>
 				</div>
 			</div>

@@ -12,12 +12,14 @@ module.exports = {
 			colors: {
 				darkPrimary: "#323330",
 				darkerPrimary: "#1E1E1E",
+				yellow: "#F0DB4F",
 			},
 			padding: {
 				paddingTopXL: "160px",
 			},
 			fontSize: {
 				h1: "50px",
+				h4: "20px",
 			},
 		},
 	},
