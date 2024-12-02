@@ -5,9 +5,9 @@ import PageContainer from "@/components/PageContainer";
 
 const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
-		<PageContainer backgroundColor="#1E1E1E" className="page-container">
-			<div className="component-container flex justify-between">
-				<div className="intro infos-block text-white w-full w-max-[700]">
+		<PageContainer backgroundColor="#1E1E1E">
+			<div className="component-container flex flex-col justify-between lg:flex-row">
+				<div className="intro infos-block text-white w-full w-max-[700] mb-[60] md:mb-0">
 					<h1 className="text-h1 font-medium mb-[6] leading-tight">
 						Développeur front-end
 					</h1>
@@ -24,7 +24,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 					</p>
 					<Link
 						href="/contact"
-						className="text-h4 bg-darkPrimary border border-darkerPrimary border-0.5 hover:border-opacity-[0.25] rounded-[16] px-4 py-2 hover:border-yellow transition duration-300 ease-out"
+						className="text-h4 bg-darkPrimary border border-darkerPrimary border-0.5 hover:border-opacity-[0.25] rounded-[18] px-6 py-3 hover:border-yellow transition duration-500 ease-out"
 					>
 						<span>Me contacter</span>
 					</Link>
@@ -35,7 +35,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 						alt={altText}
 						width={0}
 						height={550}
-						className="w-full max-w-[550] h-full max-h-[550] object-cover rounded-[30]"
+						className="w-full md:max-w-[550] h-full md:max-h-[550] object-cover rounded-[30]"
 					/>
 				</div>
 			</div>

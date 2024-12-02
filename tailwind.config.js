@@ -16,6 +16,7 @@ module.exports = {
 			},
 			padding: {
 				paddingTopXL: "160px",
+				componentYPadding: "80px",
 			},
 			fontSize: {
 				h1: "50px",

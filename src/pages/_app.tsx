@@ -7,7 +7,7 @@ const MyApp = ({ Component }: AppProps) => {
 	return (
 		<main className="main-container flex-col justify-center align-middle w-100">
 			<Header />
-			<Component className="w-full" />
+			<Component id="page-main-component" className="w-full" />
 			<Footer />
 		</main>
 	);

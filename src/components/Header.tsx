@@ -15,16 +15,16 @@ const Header: React.FC = () => {
 				</Link>
 				<nav className="h-[40] max-w-max mx-auto bg-darkPrimary rounded-[16] flex flex-row items-center">
 					<ul className="flex flex-row space-x-6 text-sm text-white px-6">
-						<li>
+						<li className="flex items-center">
 							<Link href="/">Intro / Compétences</Link>
 						</li>
-						<li>
+						<li className="flex items-center">
 							<Link href="/profile">Profil</Link>
 						</li>
-						<li>
+						<li className="flex items-center">
 							<Link href="/work-experience">Parcours</Link>
 						</li>
-						<li>
+						<li className="flex items-center">
 							<Link href="/contact">Contact</Link>
 						</li>
 					</ul>
