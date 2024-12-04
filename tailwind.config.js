@@ -20,6 +20,7 @@ module.exports = {
 			},
 			fontSize: {
 				h1: "50px",
+				mobileh1: "40px",
 				h4: "20px",
 			},
 		},

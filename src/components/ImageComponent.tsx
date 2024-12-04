@@ -15,7 +15,7 @@ const ImageComponent: React.FC<ImageComponentProps> = ({
 			alt={alt}
 			width={width}
 			height={height}
-			className={className} // Appliquez une classe CSS si nécessaire
+			className={className}
 		/>
 	);
 };

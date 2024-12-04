@@ -9,7 +9,7 @@ const PageContainer: React.FC<PageContainerProps> = ({
 			className="w-full pt-paddingTopXL sm-pr-4"
 			style={{ backgroundColor: backgroundColor || "transparent" }}
 		>
-			<div className="w-full max-w-[1280px] mx-auto pr-4 pl-4 md:pr-0 md:pl-0 pb-componentYPadding">
+			<div className="w-full max-w-[1280px] mx-auto pr-4 pl-4 md:max-w-[90%] pb-componentYPadding">
 				{children}
 			</div>
 		</div>

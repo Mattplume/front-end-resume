@@ -7,11 +7,11 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
 		<PageContainer backgroundColor="#1E1E1E">
 			<div className="component-container flex flex-col justify-between lg:flex-row">
-				<div className="intro infos-block text-white w-full w-max-[700] mb-[60] md:mb-0">
-					<h1 className="text-h1 font-medium mb-[6] leading-tight">
+				<div className="intro infos-block text-white w-full w-max-[700] mb-[60] lg:mb-0">
+					<h1 className="text-mobileh1 md:text-h1 font-medium mb-[6] leading-tight">
 						Développeur front-end
 					</h1>
-					<h1 className="text-h1 font-medium leading-tight mb-[20]">
+					<h1 className="text-mobileh1 md:text-h1 font-medium leading-tight mb-[20]">
 						& interfaceur
 					</h1>
 					<p className="text-h4 mb-[10] leading-relaxed max-w-[90%]">
@@ -35,7 +35,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 						alt={altText}
 						width={0}
 						height={550}
-						className="w-full md:max-w-[550] h-full md:max-h-[550] object-cover rounded-[30]"
+						className="w-full h-full md:max-h-[550] lg:max-w-[550] object-cover rounded-[30]"
 					/>
 				</div>
 			</div>
