@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "javascript"
+  },
+  {
+    "id": 2,
+    "name": "typescript"
+  },
+  {
+    "id": 3,
+    "name": "react"
+  },
+  {
+    "id": 4,
+    "name": "css"
+  },
+  {
+    "id": 5,
+    "name": "html"
+  },
+  {
+    "id": 7,
+    "name": "handlebars"
+  },
+  {
+    "id": 8,
+    "name": "liquid"
+  },
+  {
+    "id": 6,
+    "name": "tailwind"
+  },
+  {
+    "id": 9,
+    "name": "antdesign"
+  }
+]

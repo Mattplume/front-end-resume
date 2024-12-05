@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IntroSkillsProps } from "@/types";
 import PageContainer from "@/components/PageContainer";
+import KeySkills from "@/components/Skills/KeySkills";
 
 const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
@@ -14,11 +15,11 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 					<h1 className="text-mobileh1 md:text-h1 font-medium leading-tight mb-[20]">
 						& interfaceur
 					</h1>
-					<p className="text-h4 mb-[10] leading-relaxed max-w-[90%]">
+					<p className="md:text-h4 mb-[10] leading-relaxed max-w-[90%]">
 						Depuis 2018, je participe à la conception, au développement et au
 						pilotage des projets web pour déployer des applications digitales.
 					</p>
-					<p className="text-h4 leading-relaxed max-w-[90%] mb-[40]">
+					<p className="md:text-h4 leading-relaxed max-w-[90%] mb-[40]">
 						Depuis plus de 12 ans, j’exerce dans la relation client et le suivi
 						des projets auprès des entreprises du numérique.
 					</p>
@@ -35,10 +36,11 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 						alt={altText}
 						width={0}
 						height={550}
-						className="w-full h-full md:max-h-[550] lg:max-w-[550] object-cover rounded-[30]"
+						className="w-full h-4/6 md:max-h-[550] lg:max-w-[550] object-cover rounded-[30]"
 					/>
 				</div>
 			</div>
+			<KeySkills />
 		</PageContainer>
 	);
 };
