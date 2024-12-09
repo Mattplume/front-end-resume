@@ -4,19 +4,15 @@ import Image from "next/image";
 const KeySkills = () => {
 	return (
 		<div>
-			<h1 className="text-mobileh1 md:text-h1 font-medium mb-[6] leading-tight">
+			<h1 className="mb-[60] text-mobileh1 md:text-h1 font-medium leading-tight text-white">
 				Mes compétences de niveau confirmé
 			</h1>
-			<ul className="flex flex-wrap flex-row items-center gap-[70px] md:flex-nowrap">
+			<ul className="flex flex-wrap justify-start items-center gap-12 md:gap-16">
 				{advancedSkills.map((skill) => {
 					return (
-						<Image
-							key={skill.id}
-							src={`/icons/icon_${skill.name}.png`}
-							alt={""}
-							width={60}
-							height={60}
-						/>
+						<li key={skill.id} className="flex flex-col items-center">
+							<Image src={skill.path} alt="" width={50} height={50} />
+						</li>
 					);
 				})}
 			</ul>

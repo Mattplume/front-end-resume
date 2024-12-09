@@ -3,6 +3,7 @@ import Link from "next/link";
 import { IntroSkillsProps } from "@/types";
 import PageContainer from "@/components/PageContainer";
 import KeySkills from "@/components/Skills/KeySkills";
+import Skills from "@/components/Skills/skills";
 
 const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
@@ -41,6 +42,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 				</div>
 			</div>
 			<KeySkills />
+			<Skills />
 		</PageContainer>
 	);
 };

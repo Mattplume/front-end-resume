@@ -11,7 +11,7 @@ const MobileHeader: React.FC = () => {
 
 	return (
 		<>
-			<header className="fixed left-0 right-0 z-50 w-100 flex flex-col justify-center  p-[20px] bg-darkPrimary border-b-2 border-b-yellow border-opacity-[0.25]">
+			<header className="fixed left-0 right-0 z-50 w-100 flex flex-col justify-center p-[20px] bg-darkPrimary border-b-2 border-b-yellow border-opacity-[0.25]">
 				<div className="flex flex-row justify-between items-center">
 					<Link href="/">
 						<ImageComponent

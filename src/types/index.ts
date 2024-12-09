@@ -15,7 +15,7 @@ export interface Skill {
 export interface KeySkill {
   id: number;
   name: string;
-  imageSrc: string;
+  svg: string;
 }
 
 export interface WorkExperience {

@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "name": "javascript"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 2,
-    "name": "typescript"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 3,
-    "name": "react"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 4,
-    "name": "css"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 5,
-    "name": "html"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 7,
-    "name": "handlebars"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 8,
-    "name": "liquid"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 6,
-    "name": "tailwind"
+    "path": "/assets/keyskills/icon_react.svg"
   },
   {
     "id": 9,
-    "name": "antdesign"
+    "path": "/assets/keyskills/icon_react.svg"
   }
 ]
