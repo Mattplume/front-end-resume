@@ -1,7 +1,6 @@
 import "../styles/globals.css";
 import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
-import Footer from "../components/Footer";
 import { AppProps } from "next/app";
 import { useWindowSize } from "@/hooks";
 
