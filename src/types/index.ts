@@ -33,7 +33,7 @@ export interface IntroSkillsProps {
   className?: string;
 }
 
-export interface PageContainerProps {
+export interface SectionContainerProps {
   backgroundColor?: string;
   children: React.ReactNode;
   className?: string; 

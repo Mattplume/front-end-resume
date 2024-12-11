@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "UI/UX",
+    "infos": "Mon attention est portée naturellement sur l’interfacage dans son ensemble, et suis impliqué dès le départ de la phase de design system. Cela comprend l’interface utilisateur mais aussi son expérience.",
+    "path": "/assets/icon_3D_paint.png"
+  },
+  {
+    "id": 2,
+    "name": "Vision transversale",
+    "infos": "Mes experiences variées dans le domaine du numérique m’ont permis de développer une vision transversale des projets.  Design, technique, projet, gestion de projet et busines",
+    "path": "/assets/icon_3d_mountain.png"
+  },
+  {
+    "id": 3,
+    "name": "Gestion de projet",
+    "infos": "Force de proposition dans l'élaboration de méthodoligie, story mapping pour un projet d’application interne mais aussi fédérateur auprès des clients et faire miens leurs besoins et les convertir en idées/solutions",
+    "path": "/assets/icon_3d_rocket.png"
+  }
+]

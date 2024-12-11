@@ -15,13 +15,18 @@ module.exports = {
 				yellow: "#F0DB4F",
 			},
 			padding: {
-				paddingTopXL: "160px",
-				componentYPadding: "80px",
+				paddingTopXL: "140px",
+				sectionPB: "140px",
 			},
 			fontSize: {
 				h1: "50px",
 				mobileh1: "30px",
+				h2: "35px",
+				h3: "28px",
 				h4: "20px",
+			},
+			headingStyle: {
+				h2mb: "60px",
 			},
 		},
 	},

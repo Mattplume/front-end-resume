@@ -11,7 +11,6 @@ const MyApp = ({ Component }: AppProps) => {
 		<main className="main-container flex-col justify-center align-middle w-100">
 			{currentWidth && currentWidth >= 769 ? <Header /> : <MobileHeader />}
 			<Component id="page-main-component" className="w-full" />
-			<Footer />
 		</main>
 	);
 };
