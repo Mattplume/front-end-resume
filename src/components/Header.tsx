@@ -7,7 +7,7 @@ const Header: React.FC = () => {
 			<div className="flex flex-row justify-between items-center w-full max-w-[1280] h-[40] md:w-[90%]">
 				<Link href="/">
 					<ImageComponent
-						src="/icons/icon_logo.png"
+						src="/assets/icon_logo.png"
 						alt="Logo du site"
 						width={40}
 						height={40}
@@ -29,14 +29,6 @@ const Header: React.FC = () => {
 						</li>
 					</ul>
 				</nav>
-				<Link href="/">
-					<ImageComponent
-						src="/icons/icon_france.png"
-						alt="Drapeau français"
-						width={50}
-						height={40}
-					/>
-				</Link>
 			</div>
 		</header>
 	);
