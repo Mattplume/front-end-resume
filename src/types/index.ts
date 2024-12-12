@@ -36,6 +36,8 @@ export interface IntroSkillsProps {
 export interface SectionContainerProps {
   backgroundColor?: string;
   children: React.ReactNode;
+  paddingBottom?: string,
+  paddingTop?: string,
   className?: string; 
 }
 

@@ -15,7 +15,7 @@ module.exports = {
 				yellow: "#F0DB4F",
 			},
 			padding: {
-				paddingTopXL: "140px",
+				sectionPT: "140px",
 				sectionPB: "140px",
 			},
 			fontSize: {

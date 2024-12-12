@@ -3,7 +3,7 @@ import softskills from "../../data/softSkills.json";
 
 const SoftSkills = () => {
 	return (
-		<div className="">
+		<div>
 			<h1 className="text-center mb-32 text-mobileh1 md:text-h1 font-medium leading-tight text-darkPrimary">
 				Compétences transverses
 			</h1>
