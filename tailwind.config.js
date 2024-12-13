@@ -14,10 +14,6 @@ module.exports = {
 				darkerPrimary: "#1E1E1E",
 				yellow: "#F0DB4F",
 			},
-			padding: {
-				sectionPT: "140px",
-				sectionPB: "140px",
-			},
 			fontSize: {
 				h1: "50px",
 				mobileh1: "30px",

@@ -9,9 +9,9 @@ import Skills from "@/components/Skills/skills";
 const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
 		<>
-			<SectionContainer backgroundColor="#1E1E1E" paddingBottom="pb-0">
+			<SectionContainer backgroundColor="bg-darkerPrimary">
 				<div className="component-container flex flex-col justify-between lg:flex-row">
-					<div className="intro infos-block text-white w-full w-max-[700] lg:mb-0">
+					<div className="intro infos-block text-white w-full w-max-[700] mb-10 lg:mb-0">
 						<h1 className="text-mobileh1 md:text-h1 font-medium mb-2 leading-tight">
 							Développeur front-end
 						</h1>
@@ -33,24 +33,24 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 							<span>Me contacter</span>
 						</Link>
 					</div>
-					<div className="h-[600px] w-full w-max-[550px] flex justify-end">
+					<div className="h-[400px] w-full w-max-[550px] flex justify-end">
 						<Image
 							src={imageSrc}
 							alt={altText}
 							width={0}
 							height={550}
-							className="w-full h-4/6 md:max-h-[550px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
+							className="w-full h-full md:max-h-[550px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
 						/>
 					</div>
 				</div>
 			</SectionContainer>
-			<SectionContainer backgroundColor="#1E1E1E">
+			<SectionContainer backgroundColor="bg-darkerPrimary">
 				<KeySkills />
 			</SectionContainer>
 			<SectionContainer backgroundColor="#FFFFFF">
 				<SoftSkills />
 			</SectionContainer>
-			<SectionContainer backgroundColor="#1E1E1E">
+			<SectionContainer backgroundColor="bg-darkerPrimary">
 				<Skills />
 			</SectionContainer>
 		</>
