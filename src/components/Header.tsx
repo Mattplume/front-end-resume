@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 						height={40}
 					/>
 				</Link>
-				<nav className="h-[40] max-w-max mx-auto bg-darkPrimary rounded-[16] flex flex-row items-center">
+				<nav className="h-[40px] max-w-max mx-auto bg-darkPrimary rounded-[16px] flex flex-row items-center">
 					<ul className="flex flex-row space-x-6 text-sm text-white px-6">
 						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
 							<Link href="/">Intro / Compétences</Link>

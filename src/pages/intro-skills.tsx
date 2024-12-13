@@ -12,7 +12,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 			<SectionContainer backgroundColor="#1E1E1E" paddingBottom="pb-0">
 				<div className="component-container flex flex-col justify-between lg:flex-row">
 					<div className="intro infos-block text-white w-full w-max-[700] lg:mb-0">
-						<h1 className="text-mobileh1 md:text-h1 font-medium mb-[6] leading-tight">
+						<h1 className="text-mobileh1 md:text-h1 font-medium mb-6 leading-tight">
 							Développeur front-end
 						</h1>
 						<h1 className="text-mobileh1 md:text-h1 font-medium leading-tight mb-[20]">
@@ -33,13 +33,13 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 							<span>Me contacter</span>
 						</Link>
 					</div>
-					<div className="h-[600] w-full w-max-[550] flex justify-end">
+					<div className="h-[600px] w-full w-max-[550px] flex justify-end">
 						<Image
 							src={imageSrc}
 							alt={altText}
 							width={0}
 							height={550}
-							className="w-full h-4/6 md:max-h-[550] md:h-full lg:max-w-[550] object-cover rounded-[30]"
+							className="w-full h-4/6 md:max-h-[550px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
 						/>
 					</div>
 				</div>
