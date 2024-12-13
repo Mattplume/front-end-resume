@@ -15,7 +15,7 @@ const MobileHeader: React.FC = () => {
 				<div className="flex flex-row justify-between items-center">
 					<Link href="/">
 						<ImageComponent
-							src="/icons/icon_logo.png"
+							src="/assets/icon_logo.png"
 							alt="Logo du site"
 							width={40}
 							height={40}
@@ -50,7 +50,7 @@ const MobileHeader: React.FC = () => {
 								>
 									<span className="text-white">Home</span>
 									<ImageComponent
-										src="/icons/icon_chevron.png"
+										src="/assets/icon_chevron.png"
 										alt="Logo du site"
 										width={20}
 										height={20}
@@ -66,7 +66,7 @@ const MobileHeader: React.FC = () => {
 									{" "}
 									<span className="text-white">Profil</span>
 									<ImageComponent
-										src="/icons/icon_chevron.png"
+										src="/assets/icon_chevron.png"
 										alt="Logo du site"
 										width={20}
 										height={20}
@@ -82,7 +82,7 @@ const MobileHeader: React.FC = () => {
 									{" "}
 									<span className="text-white">Parcours</span>
 									<ImageComponent
-										src="/icons/icon_chevron.png"
+										src="/assets/icon_chevron.png"
 										alt="Logo du site"
 										width={20}
 										height={20}
@@ -98,7 +98,7 @@ const MobileHeader: React.FC = () => {
 									{" "}
 									<span className="text-white">Contact</span>
 									<ImageComponent
-										src="/icons/icon_chevron.png"
+										src="/assets/icon_chevron.png"
 										alt="Logo du site"
 										width={20}
 										height={20}
