@@ -5,7 +5,7 @@ const Home: React.FC = () => {
 	return (
 		<div className="flex-col items-center justify-center">
 			<IntroSkills
-				imageSrc="/images/instabeachsquarred.jpg"
+				imageSrc="/images/instabeachpano.jpg"
 				altText="Matthieu Petit à la plage"
 			/>
 		</div>
