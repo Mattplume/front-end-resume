@@ -38,6 +38,7 @@ export interface SectionContainerProps {
   sectionPadding?: string;
   children: React.ReactNode;
   className?: string; 
+  fullWidth?: boolean
 }
 
 export interface Picture {

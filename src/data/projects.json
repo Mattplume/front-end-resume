@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "Withings",
+    "description": "Centre d’aide adaptatif à la “responsivité” enrichie, à la charte graphique minutieuse avec implémentation du moteur de recherche Algolia et spécificité UI/UX pour le mobile.",
+    "technos" : "Projet en anglais | Javascript . hbs (liquid)  . CSS  ",
+    "img_path": "/assets/icon_next.svg",
+    "link": "https://support.withings.com/hc/fr"
+  },
+  {
+    "id": 2,
+    "name": "Siyah Organics",
+    "description": "Centre d’aide adaptatif à la “responsivité” enrichie, à la charte graphique minutieuse avec implémentation du moteur de recherche Algolia et spécificité UI/UX pour le mobile.",
+    "technos" : "Projet en anglais | Javascript . hbs (liquid)  . CSS  ",
+    "img_path": "/assets/icon_next.svg"
+  },
+  {
+    "id": 3,
+    "name": "MaFoire.com",
+    "description": "Centre d’aide adaptatif à la “responsivité” enrichie, à la charte graphique minutieuse avec implémentation du moteur de recherche Algolia et spécificité UI/UX pour le mobile.",
+    "technos" : "Projet en anglais | Javascript . hbs (liquid)  . CSS  ",
+    "img_path": "/assets/icon_next.svg"
+  },
+  {
+    "id": 4,
+    "name": "Withings",
+    "description": "Centre d’aide adaptatif à la “responsivité” enrichie, à la charte graphique minutieuse avec implémentation du moteur de recherche Algolia et spécificité UI/UX pour le mobile.",
+    "technos" : "Projet en anglais | Javascript . hbs (liquid)  . CSS  ",
+    "img_path": "/assets/icon_next.svg"
+  }
+]

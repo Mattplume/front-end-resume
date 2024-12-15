@@ -5,3 +5,32 @@
 body {
 	@apply font-space-grotesk;
 }
+
+.animate-marquee {
+	display: flex;
+	animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-1800px); /* Ajuster cette valeur ! */
+	}
+}
+
+.fade-left,
+.fade-right {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 150px; /* Ajuste cette valeur selon tes besoins */
+	background: linear-gradient(to right, rgba(30, 30, 30), transparent);
+	z-index: 1;
+}
+
+.fade-right {
+	right: 0;
+	background: linear-gradient(to left, rgba(30, 30, 30), transparent);
+}
