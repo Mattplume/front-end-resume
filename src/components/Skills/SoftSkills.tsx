@@ -4,7 +4,7 @@ import softskills from "../../data/softSkills.json";
 const SoftSkills = () => {
 	return (
 		<div>
-			<h1 className="text-center mb-32 text-mobileh1 md:text-h1 font-medium leading-tight text-darkPrimary">
+			<h1 className="text-center md:mb-32 mb-16 text-mobileh1 md:text-h1 font-medium leading-tight text-darkPrimary">
 				Compétences transverses
 			</h1>
 			<div className="flex flex-col md:flex-row md:justify-center md:items-center md:gap-10">
@@ -12,7 +12,7 @@ const SoftSkills = () => {
 					return (
 						<div
 							key={softSkill.id}
-							className="bg-darkPrimary bg-opacity-5 rounded-[24px] relative pb-8 pl-8 pr-8 pt-[120px] w-full md:max-w-[350px] h-[380px] mb-20 md:mb-0"
+							className="bg-paleGrey rounded-3xl relative pb-8 pl-8 pr-8 pt-[120px] w-full md:max-w-[350px] h-[380px] mb-20 md:mb-0"
 						>
 							<Image
 								className="absolute top-[-40px] left-6"
