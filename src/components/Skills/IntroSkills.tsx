@@ -8,7 +8,7 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 		<>
 			<SectionContainer
 				backgroundColor="bg-darkerPrimary"
-				sectionPadding="py-[140px] md:py-[140px] pb-0"
+				sectionPadding="pb-0 md:pb-0"
 			>
 				<div className="component-container flex flex-col justify-between lg:flex-row pt-8 md:pt-0">
 					<div className="intro infos-block text-white w-full w-max-[700] mb-10 lg:mb-0">
@@ -33,13 +33,13 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 							<span>Me contacter</span>
 						</Link>
 					</div>
-					<div className="h-[400px] w-full w-max-[550px] md:h-[550px] flex justify-end">
+					<div className="h-[400px] w-full w-max-[550px] md:h-[600px] flex justify-end">
 						<Image
 							src={imageSrc}
 							alt={altText}
 							width={0}
 							height={550}
-							className="w-full h-full md:max-h-[550px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
+							className="w-full h-full md:max-h-[600px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
 						/>
 					</div>
 				</div>

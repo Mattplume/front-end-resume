@@ -9,7 +9,7 @@ const Home: React.FC = () => {
 	return (
 		<div className="flex-col items-center justify-center">
 			<IntroSkills
-				imageSrc="/images/instabeachsquarred.jpg"
+				imageSrc="/images/instabeach.jpg"
 				altText="Matthieu Petit à la plage"
 			/>
 			<SectionContainer backgroundColor="bg-darkerPrimary">
