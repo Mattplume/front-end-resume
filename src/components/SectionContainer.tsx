@@ -4,12 +4,17 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
 	children,
 	backgroundColor,
 	sectionPadding,
+	fullWidth,
 }) => {
 	return (
 		<div
-			className={`w-full py-[100px] md:py-[140px] ${sectionPadding} ${backgroundColor}`}
+			className={`w-full py-[100px] md:py-[140px] flex flex-col items-center ${sectionPadding} ${backgroundColor}`}
 		>
-			<div className="w-full max-w-[1280px] mx-auto pr-4 pl-4 md:max-w-[90%]">
+			<div
+				className={`${
+					fullWidth ? "w-screen" : "w-full max-w-[1280px] pr-4 pl-4"
+				} `}
+			>
 				{children}
 			</div>
 		</div>

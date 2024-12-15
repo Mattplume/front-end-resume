@@ -5,7 +5,7 @@ import KeySkills from "@/components/Skills/KeySkills";
 import SoftSkills from "@/components/Skills/SoftSkills";
 import Skills from "@/components/Skills/skills";
 
-const Home: React.FC = () => {
+const Index: React.FC = () => {
 	return (
 		<div className="flex-col items-center justify-center">
 			<IntroSkills
@@ -18,11 +18,15 @@ const Home: React.FC = () => {
 			<SectionContainer backgroundColor="#FFFFFF">
 				<SoftSkills />
 			</SectionContainer>
-			<SectionContainer backgroundColor="bg-darkerPrimary">
+			<SectionContainer
+				fullWidth={true}
+				className="w-screen"
+				backgroundColor="bg-darkerPrimary"
+			>
 				<Skills />
 			</SectionContainer>
 		</div>
 	);
 };
 
-export default Home;
+export default Index;
