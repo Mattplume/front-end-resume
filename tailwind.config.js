@@ -12,6 +12,7 @@ module.exports = {
 			colors: {
 				darkPrimary: "#323330",
 				darkerPrimary: "#1E1E1E",
+				paleGrey: "#F9F9F9",
 				yellow: "#F0DB4F",
 			},
 			fontSize: {
