@@ -37,8 +37,9 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 						<Image
 							src={imageSrc}
 							alt={altText}
-							width={0}
-							height={550}
+							width={550}
+							height={600}
+							quality={100}
 							className="w-full h-full md:max-h-[600px] md:h-full lg:max-w-[550px] object-cover rounded-[30px]"
 						/>
 					</div>
