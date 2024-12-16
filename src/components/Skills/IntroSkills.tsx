@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IntroSkillsProps } from "@/types";
 import SectionContainer from "@/components/SectionContainer";
+import Tooltip from "../Tooltip";
 
 const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 	return (
@@ -26,12 +27,14 @@ const IntroSkills: React.FC<IntroSkillsProps> = ({ imageSrc, altText }) => {
 							Depuis plus de 12 ans, j’exerce dans la relation client et le
 							suivi des projets auprès des entreprises du numérique.
 						</p>
-						<Link
-							href="/contact"
-							className="text-h4 bg-darkPrimary border border-darkerPrimary border-0.5 hover:border-opacity-[0.25] rounded-[18px] px-6 py-3 hover:border-yellow transition duration-500 ease-out"
-						>
-							<span>Me contacter</span>
-						</Link>
+						<Tooltip text="Page en construction">
+							<Link
+								href="/contact"
+								className="pointer-events-none text-h4 bg-darkPrimary border border-darkerPrimary border-0.5 hover:border-opacity-[0.25] rounded-[18px] px-6 py-3 hover:border-yellow transition duration-500 ease-out"
+							>
+								<span>Me contacter</span>
+							</Link>
+						</Tooltip>
 					</div>
 					<div className="h-[400px] w-full w-max-[550px] md:h-[600px] flex justify-end">
 						<Image

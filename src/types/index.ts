@@ -1,5 +1,7 @@
 // types/index.ts
 
+import { ReactNode } from "react";
+
 export interface User {
   name: string;
   email: string;
@@ -62,4 +64,9 @@ export interface Project {
   technos: string;
   imgPath: string,
   link: string
+}
+
+export interface TooltipProps {
+  text: string;
+  children: ReactNode
 }
