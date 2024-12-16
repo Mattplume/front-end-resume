@@ -53,3 +53,13 @@ export interface ImageComponentProps {
   height: number;
   className?: string;
 }
+
+
+export interface Project {
+  id: number;
+  name: string;
+  description: string;
+  technos: string;
+  imgPath: string,
+  link: string
+}
