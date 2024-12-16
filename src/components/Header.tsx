@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ImageComponent from "./ImageComponent";
+import Tooltip from "./Tooltip";
 
 const Header: React.FC = () => {
 	return (
@@ -18,14 +19,35 @@ const Header: React.FC = () => {
 						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
 							<Link href="/">Intro / Compétences</Link>
 						</li>
-						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
-							<Link href="/profile">Profil</Link>
+						<li className="flex items-center ">
+							<Tooltip text="Page en construction">
+								<Link
+									className="pointer-events-none text-white opacity-50"
+									href="/profile"
+								>
+									Profil
+								</Link>
+							</Tooltip>
 						</li>
-						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
-							<Link href="/work-experience">Parcours</Link>
+						<li className="flex items-center ">
+							<Tooltip text="Page en construction">
+								<Link
+									className="pointer-events-none text-white opacity-50"
+									href="/profile"
+								>
+									Parcours
+								</Link>
+							</Tooltip>
 						</li>
-						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
-							<Link href="/contact">Contact</Link>
+						<li className="flex items-center ">
+							<Tooltip text="Page en construction">
+								<Link
+									className="pointer-events-none text-white opacity-50"
+									href="/profile"
+								>
+									Contact
+								</Link>
+							</Tooltip>
 						</li>
 					</ul>
 				</nav>
