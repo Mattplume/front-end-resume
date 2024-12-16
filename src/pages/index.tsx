@@ -4,6 +4,7 @@ import SectionContainer from "@/components/SectionContainer";
 import KeySkills from "@/components/Skills/KeySkills";
 import SoftSkills from "@/components/Skills/SoftSkills";
 import Skills from "@/components/Skills/skills";
+import ProjectsList from "@/components/ProjectsList";
 
 const Index: React.FC = () => {
 	return (
@@ -24,6 +25,9 @@ const Index: React.FC = () => {
 				backgroundColor="bg-darkerPrimary"
 			>
 				<Skills />
+			</SectionContainer>
+			<SectionContainer backgroundColor="bg-paleGrey">
+				<ProjectsList />
 			</SectionContainer>
 		</div>
 	);
