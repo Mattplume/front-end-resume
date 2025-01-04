@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "jobTitle": "Développeur web",
+    "companyName": "SEIF CONSULT",
+    "description": "Conception, maquettage et développement de projets web (Centres d’aides et applications web; React JS | JS / HBS / HTML5 / CSS3 | API Rest | Figma",
+    "startDate" : "2021",
+    "endDate": ""
+  },
+  {
+    "id": 2,
+    "jobTitle": "Développeur front-end",
+    "companyName": "Oqtolab",
+    "description": "Site web e-commerce Shopify à la conception graphique poussée et singulière",
+    "startDate" : "2019",
+    "endDate": "2021"
+  },
+  {
+    "id": 3,
+    "jobTitle": "Responsable grands comptes",
+    "companyName": "IMIE, L'école de la filière numérique",
+    "description": "Applications saas de foire virtuelle avec version visiteur, back office exposant et admin",
+    "startDate" : "2011",
+    "endDate": "2018"
+  },
+  {
+    "id": 4,
+    "jobTitle": "Responsable commercial",
+    "companyName": "Image webDesign",
+    "description": "Centre d’aide personnalisable au design system singulier (Design et développement)",
+    "startDate" : "2010",
+    "endDate": "2011"
+  },
+  {
+    "id": 5,
+    "jobTitle": "Directeur de clientèle",
+    "companyName": "Groupe Xalis",
+    "description": "Site web e-commerce Shopify à la conception graphique poussée et singulière",
+    "startDate" : "2005",
+    "endDate": "2010"
+  },
+  {
+    "id": 6,
+    "jobTitle": "MaFoire.com",
+    "companyName": "",
+    "description": "Applications saas de foire virtuelle avec version  visiteur, back office exposant et admin",
+    "startDate" : "React, Redux, Less",
+    "endDate": "/images/mafoire.jpg"
+  },
+  {
+    "id": 7,
+    "jobTitle": "Thème Nova",
+    "companyName": "",
+    "description": "Centre d’aide personnalisable au design system singulier (Design et développement)",
+    "startDate" : "Figma, JavaScript, Handlebars, CSS",
+    "endDate": "/images/nova.jpg"
+  }
+]

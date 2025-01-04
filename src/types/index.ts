@@ -56,17 +56,25 @@ export interface ImageComponentProps {
   className?: string;
 }
 
-
 export interface Project {
   id: number;
   name: string;
   description: string;
   technos: string;
-  imgPath: string,
-  link: string
+  imgPath: string;
+  link: string;
 }
 
 export interface TooltipProps {
   text: string;
   children: ReactNode
+}
+
+export interface Job {
+  id: number;
+  jobTitle: string;
+  companyName: string;
+  description: string;
+  startDate: string;
+  endDate: string;
 }
