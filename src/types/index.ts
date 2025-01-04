@@ -68,13 +68,19 @@ export interface Project {
 export interface TooltipProps {
   text: string;
   children: ReactNode
+  disabled?: boolean; 
+}
+
+export interface JobDescription {
+  missions: string;
+  Environnement: string;
 }
 
 export interface Job {
   id: number;
   jobTitle: string;
   companyName: string;
-  description: string;
+  description: JobDescription;
   startDate: string;
   endDate: string;
 }
