@@ -11,19 +11,13 @@ const WorkExperiencePage: React.FC<pageProps> = ({ className }) => {
 	const { currentWidth } = useWindowSize();
 	return (
 		<div className="bg-paleGrey md:bg-white">
-			<div className="page-header md:fixed md:bg-white w-full md:pt-36">
-				<div
-					ref={parentRef}
-					className="md:relative md:bg-white w-full h-[60px]"
-				>
-					{" "}
-					<h1 className="text-darkPrimary text-center text-mobileh1 md:text-h1 font-medium mb-2 leading-tight">
-						Expérience professionnelle
-					</h1>
-				</div>
-				{/* {currentWidth && currentWidth >= 769 && (
+			<div className="page-header md:fixed md:bg-white w-full md:pt-36 z-10">
+				<h1 className="text-darkPrimary text-center text-mobileh1 md:text-h1 font-medium mb-2 leading-tight">
+					Expérience professionnelle
+				</h1>
+				{currentWidth && currentWidth >= 769 && (
 					<div className="fade-in-white"></div>
-				)} */}
+				)}
 			</div>
 			<JobsList parentRef={parentRef} />
 		</div>

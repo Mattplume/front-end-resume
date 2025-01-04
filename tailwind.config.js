@@ -7,7 +7,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				"space-grotesk": ["Space Grotesk", "serif"],
+				"text-font": ["DM Sans", "serif"],
 			},
 			colors: {
 				darkPrimary: "#323330",

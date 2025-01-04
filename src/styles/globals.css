@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	@apply font-space-grotesk;
+	@apply font-text-font;
 }
 
 .animate-marquee {
