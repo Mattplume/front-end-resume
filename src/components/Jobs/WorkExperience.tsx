@@ -86,7 +86,7 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ job, parentRef }) => {
 				</div>
 				<JobDetails
 					details={job.description}
-					context={job.id === 1 || job.id === 2 ? "tech" : null}
+					context={job.id === 1 || job.id === 2 ? "tech" : undefined}
 					seif={job.companyName === "SEIF CONSULT"}
 				/>
 				{currentWidth && currentWidth < 1024 && (

@@ -94,7 +94,7 @@ export interface JobDetailsProps {
     missions: string;
     Environnement: string;
   };
-  context: string;
+  context?: string;
   seif: boolean; 
 }
 

@@ -14,12 +14,12 @@ const JobDetails: React.FC<JobDetailsProps> = ({ details, context, seif }) => {
 			<JobDetail
 				title={seif ? "Missions principales" : "Missions"}
 				content={seif ? missionsArray[0] : details.missions}
-				showTitle={currentWidth && currentWidth > 1023}
+				showTitle={currentWidth ? currentWidth > 1023 : false}
 			/>
 			<JobDetail
 				title={context === "tech" ? "Environnement technique" : "Environnement"}
 				content={details.Environnement}
-				showTitle={currentWidth && currentWidth > 1023}
+				showTitle={currentWidth ? currentWidth > 1023 : false}
 			/>
 			{seif && (
 				<>
