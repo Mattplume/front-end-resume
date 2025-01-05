@@ -38,6 +38,7 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ job, parentRef }) => {
 					<div
 						ref={dateRef}
 						className={`end-date-block ${
+							currentWidth &&
 							currentWidth > 1023 &&
 							(isSticky ? "sticky top-[278px] z-1" : "absolute top-[-10px]")
 						} text-gray-400 flex justify-end lg:w-1/4`}
@@ -47,7 +48,9 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ job, parentRef }) => {
 						</div>
 					</div>
 					<div className="job-company flex flex-col lg:gap-2 absolute top-[-40px] left-0 lg:top-1/2 right-4 transform -translate-y-1/2">
-						{job.companyName === "IMIE" && currentWidth > 1023 ? (
+						{job.companyName === "IMIE" &&
+						currentWidth &&
+						currentWidth > 1023 ? (
 							<>
 								<h3 className="lg:text-end text-darkPrimary font-semibold text-xl">
 									Chargé des relations
@@ -59,7 +62,9 @@ const WorkExperience: React.FC<WorkExperienceProps> = ({ job, parentRef }) => {
 									Responsable grands comptes
 								</h3>
 							</>
-						) : job.companyName === "IMIE" && currentWidth < 1024 ? (
+						) : job.companyName === "IMIE" &&
+						  currentWidth &&
+						  currentWidth < 1024 ? (
 							<h3 className="lg:text-end text-darkPrimary font-semibold text-xl">
 								Responsable grands comptes
 							</h3>

@@ -28,25 +28,13 @@ const Tooltip: React.FC<TooltipProps> = ({ children, text, disabled }) => {
 			style={{ position: "relative", display: "inline-block", width: "100%" }}
 		>
 			{React.cloneElement(children as React.ReactElement, {
-				onMouseEnter: handleMouseEnter, // Affiche le tooltip au survol si pas désactivé
-				onMouseLeave: handleMouseLeave, // Masque le tooltip au survol si pas désactivé
-				onClick: handleClick, // Gère le clic pour afficher le tooltip si désactivé
-				style: { pointerEvents: disabled ? "none" : "auto" }, // Désactive les événements de clic si disabled
+				onMouseEnter: handleMouseEnter,
+				onMouseLeave: handleMouseLeave,
+				onClick: handleClick,
+				style: { pointerEvents: disabled ? "none" : "auto" },
 			})}
 			{visible && (
-				<div
-					className="max-w-fit px-2 bg-yellow text-darkPrimary absolute top-0"
-					style={{
-						position: "absolute",
-						display: "flex",
-						justifyContent: "center",
-						left: "50%",
-						transform: "translateX(-50%)",
-						borderRadius: "6px",
-						whiteSpace: "nowrap",
-						zIndex: 1000,
-					}}
-				>
+				<div className="absolute flex max-w-fit px-2 rounded-lg bg-yellow text-darkPrimary left-28 top-0 z-[1000] lg:left-0 lg:top-8">
 					{text}
 				</div>
 			)}

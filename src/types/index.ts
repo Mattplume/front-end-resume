@@ -71,9 +71,8 @@ export interface TooltipProps {
   disabled?: boolean; 
 }
 
-export interface JobDescription {
-  missions: string;
-  Environnement: string;
+export interface JobsListProps {
+  parentRef: React.RefObject<HTMLDivElement>;
 }
 
 export interface Job {
@@ -83,4 +82,24 @@ export interface Job {
   description: JobDescription;
   startDate: string;
   endDate: string;
+}
+
+export interface JobDescription {
+  missions: string;
+  Environnement: string;
+}
+
+export interface JobDetailsProps {
+  details: {
+    missions: string;
+    Environnement: string;
+  };
+  context: string;
+  seif: boolean; 
+}
+
+export interface JobDetailProps {
+  title: string;
+  content: string;
+  showTitle: boolean; 
 }

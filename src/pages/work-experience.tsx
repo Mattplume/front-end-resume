@@ -6,12 +6,12 @@ interface pageProps {
 	className?: string;
 }
 
-const WorkExperiencePage: React.FC<pageProps> = ({ className }) => {
+const WorkExperiencePage: React.FC<pageProps> = () => {
 	const parentRef = useRef<HTMLDivElement>(null);
 	const { currentWidth } = useWindowSize();
 
 	return (
-		<div className="bg-paleGrey lg:bg-white pt-20 lg:pt-0">
+		<div className="bg-paleGrey lg:bg-white pt-20 lg:pt-0 h-full lg:pb-[60px]">
 			<div className="page-header mb-16 lg:fixed lg:bg-white w-full pt-16 lg:pt-36 z-10">
 				<h1 className="text-darkPrimary text-center text-mobileh1 md:text-h1 font-medium leading-tight">
 					Expérience professionnelle

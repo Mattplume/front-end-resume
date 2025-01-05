@@ -1,4 +1,6 @@
-const JobDetail = ({ title, content, showTitle, context }) => {
+import { JobDetailProps } from "@/types";
+
+const JobDetail: React.FC<JobDetailProps> = ({ title, content, showTitle }) => {
 	const contentArray = content.split(";").map((item) => item.trim());
 
 	return (
