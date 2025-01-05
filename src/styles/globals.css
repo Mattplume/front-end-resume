@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-	@apply font-space-grotesk;
+	@apply font-text-font;
 }
 
 .animate-marquee {
@@ -33,4 +33,32 @@ body {
 .fade-right {
 	right: 0;
 	background: linear-gradient(to left, rgba(30, 30, 30), transparent);
+}
+
+.fade-in-white {
+	position: absolute;
+	top: 206.5px;
+	height: 80px;
+	width: 100%;
+	/* background: linear-gradient(to bottom, rgb(255, 255, 255), transparent); */
+	background: linear-gradient(
+		to bottom,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 0.75) 70%,
+		transparent 100%
+	);
+	z-index: 1;
+}
+
+.job-container:not(:last-child)::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 20px;
+	background-image: url("/assets/icon_up-arrow.png");
+	background-size: cover;
+	top: 109%;
 }

@@ -56,17 +56,50 @@ export interface ImageComponentProps {
   className?: string;
 }
 
-
 export interface Project {
   id: number;
   name: string;
   description: string;
   technos: string;
-  imgPath: string,
-  link: string
+  imgPath: string;
+  link: string;
 }
 
 export interface TooltipProps {
   text: string;
   children: ReactNode
+  disabled?: boolean; 
+}
+
+export interface JobsListProps {
+  parentRef: React.RefObject<HTMLDivElement>;
+}
+
+export interface Job {
+  id: number;
+  jobTitle: string;
+  companyName: string;
+  description: JobDescription;
+  startDate: string;
+  endDate: string;
+}
+
+export interface JobDescription {
+  missions: string;
+  Environnement: string;
+}
+
+export interface JobDetailsProps {
+  details: {
+    missions: string;
+    Environnement: string;
+  };
+  context?: string;
+  seif: boolean; 
+}
+
+export interface JobDetailProps {
+  title: string;
+  content: string;
+  showTitle: boolean; 
 }

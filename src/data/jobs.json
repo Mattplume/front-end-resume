@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "jobTitle": "Développeur web",
+    "companyName": "SEIF CONSULT",
+    "description": {
+      "missions" : "Conception, maquettage et développement de projets web; (Centres d’aides et applications web); Collaboration à l’élaboration de la méthode interne de suivi de projets; Participation à la création d'un indice de la qualité de production",
+      "Environnement" :"React JS | JS / HBS / HTML5 / CSS3 | API Rest | Gitlab | Figma | ZAT Zendesk Application tools; Equipe de 5 développeurs | Rituels agiles; Suivi et cadrage du projet (Agile - Kanban) - Démos "
+    },
+    "startDate" : "2021",
+    "endDate": ""
+  },
+  {
+    "id": 2,
+    "jobTitle": "Développeur front-end",
+    "companyName": "OQTOLAB",
+    "description": {
+      "missions" : "Développement d’une application de management sous Framework React/redux; Développement et maquettage d’une application de foire virtuelle avec back-office sous Framework React/redux; Développement de sites e-commerce ultra-personnalisés sous Shopify",
+      "Environnement": "React / Redux | JSX / LESS | API REST | Laravel | Docker | Gitlab | Figma; Liquid | JS | HTML5 / CSS3 | Figma"
+    },
+    "startDate" : "2019",
+    "endDate": "2021"
+  },
+  {
+    "id": 3,
+    "jobTitle": "Chargé des relations entreprises; Responsable grands comptes",
+    "companyName": "IMIE",
+    "description": {
+      "missions" : "Accompagnement dans la GPEC; Gestion des plans de recrutement et des plans de formation dédiés; Placement des candidats; Placement et suivi des candidats; Veille sur les besoins du bassin d’emploi; Promotion de l’école",
+      "Environnement": "Equipe commerciale de 6 personnes, dont le responsable de l'établissement; Equipe pédagogique permanente de 5 personnes dont des concepteurs développeurs"
+    },
+    "startDate" : "2011",
+    "endDate": "2018"
+  },
+  {
+    "id": 4,
+    "jobTitle": "Responsable commercial",
+    "companyName": "IMAGE WEBDESIGN",
+    "description": {
+      "missions" : "Négocation des partenariats  et contrats; Prospection et gestion d’un portefeuille client; Suivi des projets",
+      "Environnement": "Equipe technique de 6 personnes, dont un directeur de projet "
+    },
+    "startDate" : "2010",
+    "endDate": "2011"
+  },
+  {
+    "id": 5,
+    "jobTitle": "Directeur de clientèle",
+    "companyName": "GROUPE PIANA",
+    "description": {
+      "missions" : "Financement informatique B to B; Intermédiation bancaire; Gestion des contentieux administratifs",
+      "Environnement": ""
+    },
+    "startDate" : "2005",
+    "endDate": "2010"
+  }
+]
