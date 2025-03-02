@@ -90,24 +90,6 @@ const MobileHeader: React.FC = () => {
 									/>
 								</Link>
 							</li>
-							<li className="w-full mt-3 mb-3">
-								<Tooltip text="Page en construction" disabled>
-									<Link
-										className="flex flex-row justify-between items-center opacity-20"
-										href="/contact"
-										onClick={() => setIsMenuOpen(false)}
-									>
-										{" "}
-										<span className="text-white">Contact</span>
-										<ImageComponent
-											src="/assets/icon_chevron.png"
-											alt="Logo du site"
-											width={20}
-											height={20}
-										/>
-									</Link>
-								</Tooltip>
-							</li>
 						</ul>
 					</nav>
 				)}

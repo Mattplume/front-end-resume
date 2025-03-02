@@ -32,16 +32,6 @@ const Header: React.FC = () => {
 						<li className="flex items-center hover:text-yellow transition duration-500 ease-out">
 							<Link href="/work-experience">Parcours</Link>
 						</li>
-						<li className="flex items-center ">
-							<Tooltip text="Page en construction">
-								<Link
-									className="pointer-events-none text-white opacity-50"
-									href="/profile"
-								>
-									Contact
-								</Link>
-							</Tooltip>
-						</li>
 					</ul>
 				</nav>
 			</div>
