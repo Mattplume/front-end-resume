@@ -31,4 +31,12 @@
     "imgPath": "/images/nova.jpg",
     "link": "https://www.zendesk.com/marketplace/themes/239/nova/"
   }
+  {
+    "id": 5,
+    "name": "La Baule TV",
+    "description": "Site web de la web TV; La Baule TV",
+    "technos" : "Figma, Next JS, typeScript, Tailwind CSS, Prismic",
+    "imgPath": "/images/lbtv.jpg",
+    "link": "https://labaule.tv"
+  }
 ]
