@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Withings",
     "description": "Centre d’aide à la “responsivité” enrichie, à la charte graphique minutieuse avec implémentation du moteur de recherche Algolia.",
-    "technos" : "Projet en anglais, JavaScript, Handlebars",
+    "technos": "Projet en anglais, JavaScript, Handlebars",
     "imgPath": "/images/withings.jpg",
     "link": "https://support.withings.com/hc/fr"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Siyah Organics",
     "description": "Site web e-commerce Shopify à la conception graphique poussée et singulière",
-    "technos" : "Liquid, JavaScript, CSS",
+    "technos": "Liquid, JavaScript, CSS",
     "imgPath": "/images/siyah.jpeg",
     "link": "https://siyah-organics.com/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "MaFoire.com",
     "description": "Applications saas de foire virtuelle avec version  visiteur, back office exposant et admin",
-    "technos" : "React, Redux, Less",
+    "technos": "React, Redux, Less",
     "imgPath": "/images/mafoire.jpg",
     "link": "https://mafoiremonsalon.com/pro/service-de-digitalisation-de-salons/"
   },
@@ -27,8 +27,16 @@
     "id": 4,
     "name": "Thème Nova",
     "description": "Centre d’aide personnalisable au design system singulier (Design et développement)",
-    "technos" : "Figma, JavaScript, Handlebars, CSS",
+    "technos": "Figma, JavaScript, Handlebars, CSS",
     "imgPath": "/images/nova.jpg",
     "link": "https://www.zendesk.com/marketplace/themes/239/nova/"
+  },
+  {
+    "id": 5,
+    "name": "La Baule TV",
+    "description": "Site web de la web TV; La Baule TV",
+    "technos": "Figma, Next JS, typeScript, Tailwind CSS, Prismic",
+    "imgPath": "/images/lbtv.jpg",
+    "link": "https://labaule.tv"
   }
 ]
